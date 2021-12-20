@@ -1,5 +1,6 @@
 function game(n){
     let countp=0,countc=0;
+    alert("Game will be played in console only, so results will be available in console ");
     for(let i=0;i<n;i++){
         function computerPlay(inp){
             let num = Math.floor(Math.random() * 3);
