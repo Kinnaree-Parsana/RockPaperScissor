@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Java Script</title>
-    <script type="text/javascript" src="game.js"></script>
-</head>
-<body>
-    <p>Rock, Paper, Scissor</p>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <h1 class="kap">Rock-Paper-Scissor</h1>
+    <main>
+    <div id="name">
+        <p id="sp">Your Score</p>
+        <p id="sc">Computer Score</p>
+    </div>
+    <div id="display">
+        <p id="scorePlayer">0</p>
+        <p id="scoreComputer">0</p>
+    </div>
+    <div id="messages">
+        <p id="result">#########  Let's start  #########</p>
+        <p id="congrats"></p>
+    </div>
+    <div id="options">
+        <button value="paper" id="btn">Paper</button>
+        <button value="scissors" id="btn">Scissors</button>
+        <button  value="rock" id="btn">Rock</button>
+    </div>
+    <div>
+        <button id="playAgain">Play Again</button>
+    </div>
+    </main>
+<script src="script.js"></script>
 </body>
 </html>

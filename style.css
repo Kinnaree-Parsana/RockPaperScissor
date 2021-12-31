@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'PlayfairDisplay-Black';
+    src: url('Fonts/PlayfairDisplay-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    color: #4A235A;
+    text-align: center;
+    font-size: 80px;
+    word-spacing: 5px;
+    margin-top: 20px;
+    text-shadow: 5px 0 10px #BB8FCE, 0 5px 15px #EC7063;
+}
+main:hover{
+    color: #4A235A;
+    background-image: linear-gradient(180deg,white,#D2B4DE,#A569BD);
+    transition: 0.3s;
+}
+
+main{
+    max-width: 800px;
+    max-height: 800px;
+    background-image: linear-gradient(to right,white,#D2B4DE,#A569BD);
+    margin: auto;
+    margin-top: 50px;
+    border: solid #F1948A;
+    border-radius: 5px;
+}
+#result{
+    word-spacing: 2px;
+    font-size: larger;
+}
+body{
+    background-image: linear-gradient(to right, #AF7AC5,#D7BDE2,#D7BDE2,white);
+    color: #4A235A;
+    text-shadow: 5px 0 10px #BB8FCE, 0 5px 15px #EC7063;
+}
+
+#sp, #sc{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #4A235A;
+    text-shadow: 5px 0 10px #BB8FCE, 0 5px 15px #EC7063;
+    text-decoration: none;
+}
+#name{
+    border: solid 1px #F1948A;
+    width: 100%;
+    height: 75px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#scorePlayer, #scoreComputer{
+    font-size: 100px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+button:hover{
+    color: #4A235A;
+    background-image: linear-gradient(to left, #EC7063,#F5B7B1,#F5B7B1,white);
+    transition: 0.3s;
+}
+#display{
+    border: solid 1px #F1948A;
+    width: 100%;
+    height: 280px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 150px;
+    height: 60px;
+    background-image: linear-gradient(to right, #EC7063,#F5B7B1,#F5B7B1,white);
+    color: #4A235A;
+    text-shadow: 5px 0 10px #BB8FCE, 0 5px 15px #884EA0;
+    border: solid ;
+    margin: 20px 10px 0px 10px ;
+    outline: snow;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'PlayfairDisplay-Black';
+}
+#options{
+    display: flex;
+    justify-content: space-around;
+}
+#playAgain{
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+#messages{
+    text-align: center;
+    border: double 5px #F1948A;
+    display: flex;
+    flex-direction: column;
+    border-left: 0;
+    border-right: 0;
+}
+@media (max-width: 500px){
+    h1{
+        font-size: 40px;
+    }
+    main{
+        height: 650px;
+        width: 300px;
+    }
+    #result{
+        font-size: large;
+    }
+    button{
+        width: 90px;
+        height: 30px;
+    }
+    
+}
